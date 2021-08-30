@@ -1,2 +1,4 @@
 # Website_Uniqlo
-Website include: client and admin
+Website include:  
+                  + Client
+                  + Admin (account and password:admin)
