@@ -9,13 +9,13 @@ import {createStore,compose,applyMiddleware} from 'redux';
 import myReducer from './reducers/index';
 import {Provider} from 'react-redux';
 import thunk from 'redux-thunk';
-
+import { icons } from './Admin/assets/icons';
 const store = createStore(myReducer, compose(
   applyMiddleware(thunk),
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 )
 );
-
+React.icons = icons
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
